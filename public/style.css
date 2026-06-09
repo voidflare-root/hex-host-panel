@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background: #050914;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  padding: 20px;
+}
+
+header {
+  background: #0d1730;
+  padding: 18px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background: #00ff88;
+  color: #001b10;
+  border: 0;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #101a33;
+  border: 1px solid #1e335f;
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.repo {
+  background: #071225;
+  padding: 14px;
+  border-radius: 14px;
+  margin-bottom: 12px;
+}
+
+.repo small {
+  color: #9bb7ff;
+}
+
+pre {
+  background: #02060f;
+  color: #00ff88;
+  padding: 15px;
+  border-radius: 14px;
+  height: 420px;
+  overflow: auto;
+}
