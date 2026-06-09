@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HEX Host Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>HEX Host Panel</h1>
+    <button onclick="loadRepos()">Connect GitHub</button>
+  </header>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Repositories</h2>
+      <div id="repos"></div>
+    </div>
+
+    <div class="card">
+      <h2>Deploy Logs</h2>
+      <pre id="logs">Waiting...</pre>
+    </div>
+  </section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
